@@ -1,0 +1,337 @@
+* {
+    background-color: rgb(83, 81, 81);
+    font-family:'Courier New', Courier, monospace;
+}
+
+#naslov {
+    color: black;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    top: 0px;
+    border-bottom: 2px double black;
+}
+
+#container {
+    width: 99%;
+    height: auto;
+    border: 5px double rgba(27, 27, 27, 0.644);
+    padding: 20px 0px;
+}
+
+main {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+#s1 {
+    width: 192px;
+    height: 256px;
+    background-image: url('photos/orasje1.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+.slike {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 10px 0;
+    flex-direction: column;
+}
+
+#s2 {
+    width: 192px;
+    height: 256px;
+    background-image: url('photos/orasje2.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+.txt {
+    margin: 40px 0;
+    font-size: 20px;
+    color: white;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+#s3 {
+    width: 300px;
+    height: 400px;
+    background-image: url('photos/baosici1.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s4 {
+    width: 300px;
+    height: 400px;
+    background-image: url('photos/baosici2.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s5 {
+    width: 300px;
+    height: 400px;
+    background-image: url('photos/baosici3.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s6 {
+    width: 300px;
+    height: 400px;
+    background-image: url('photos/baosici4.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s7 {
+    width: 300px;
+    height: 616px;
+    background-image: url('photos/baosici5.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s8 {
+    width: 256px;
+    height: 192px;
+    background-image: url('photos/baosici6.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s9 {
+    width: 400px;
+    height: 300px;
+    background-image: url('photos/stanisici1.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s10 {
+    width: 300px;
+    height: 400px;
+    background-image: url('photos/stanisici2.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s11 {
+    width: 350px;
+    height: 350px;
+    background-image: url('photos/vlasic1.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s12 {
+    width: 300px;
+    height: 400px;
+    background-image: url('photos/vlasic2.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s13 {
+    width: 300px;
+    height: 400px;
+    background-image: url('photos/vlasic3.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s14 {
+    width: 300px;
+    height: 400px;
+    background-image: url('photos/vlasic4.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s15 {
+    width: 300px;
+    height: 400px;
+    background-image: url('photos/vlasic5.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s16 {
+    width: 450px;
+    height: 600px;
+    background-image: url('photos/ugljevik.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s17 {
+    width: 400px;
+    height: 300px;
+    background-image: url('photos/alanja1.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s18 {
+    width: 300px;
+    height: 400px;
+    background-image: url('photos/alanja2.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s19 {
+    width: 300px;
+    height: 400px;
+    background-image: url('photos/alanja3.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s20 {
+    width: 300px;
+    height: 400px;
+    background-image: url('photos/alanja4.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s21 {
+    width: 300px;
+    height: 400px;
+    background-image: url('photos/alanja5.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s22 {
+    width: 300px;
+    height: 400px;
+    background-image: url('photos/alanja6.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s23 {
+    width: 400px;
+    height: 300px;
+    background-image: url('photos/akvapark1.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s24 {
+    width: 300px;
+    height: 400px;
+    background-image: url('photos/akvapark2.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s25 {
+    width: 300px;
+    height: 400px;
+    background-image: url('photos/akvapark3.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s26 {
+    width: 400px;
+    height: 300px;
+    background-image: url('photos/akvapark4.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s27 {
+    width: 300px;
+    height: 400px;
+    background-image: url('photos/akvapark5.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s28 {
+    width: 300px;
+    height: 400px;
+    background-image: url('photos/svetionik1.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s29 {
+    width: 450px;
+    height: 225px;
+    background-image: url('photos/svetionik2.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s30 {
+    width: 300px;
+    height: 400px;
+    background-image: url('photos/svetionik3.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s31 {
+    width: 300px;
+    height: 400px;
+    background-image: url('photos/svetionik4.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
+
+#s32 {
+    width: 300px;
+    height: 533px;
+    background-image: url('photos/nezanimame.jpg');
+    background-size: cover;
+    border: 2px solid rgb(56, 55, 55);
+    margin: 20px;
+}
